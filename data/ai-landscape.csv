@@ -1,0 +1,127 @@
+Company,Category,Subcategory,Layer,Geo,Year Founded,Description,Notes
+OpenAI,Frontier Models,Large Language Models,Foundation,US,2015,Developer of GPT series and ChatGPT,Leading frontier lab
+Anthropic,Frontier Models,Large Language Models,Foundation,US,2021,AI safety company building Claude,Focus on safety and alignment
+Google DeepMind,Frontier Models,Large Language Models,Foundation,US,2010,AI research lab within Google,Merged DeepMind and Google Brain
+Meta AI,Frontier Models,Open Source Models,Foundation,US,2013,Open source LLM research at Meta,Llama model family
+Mistral AI,Frontier Models,Open Source Models,Foundation,France,2023,European frontier AI lab,Strong open-weight models
+Cohere,Frontier Models,Enterprise LLMs,Foundation,Canada,2019,Enterprise-focused LLM provider,RAG and enterprise search focus
+AI21 Labs,Frontier Models,Enterprise LLMs,Foundation,Israel,2017,Enterprise AI with Jamba models,Mamba architecture pioneer
+xAI,Frontier Models,Large Language Models,Foundation,US,2023,Elon Musk AI venture building Grok,Focus on truth-seeking AI
+Inflection AI,Frontier Models,Consumer AI,Foundation,US,2022,Personal AI assistant Pi,Consumer conversational AI
+Stability AI,Frontier Models,Image Generation,Foundation,UK,2019,Open source image generation,Stable Diffusion creator
+Midjourney,Frontier Models,Image Generation,Foundation,US,2021,AI image generation platform,Design-focused generation
+Runway,Frontier Models,Video Generation,Foundation,US,2018,AI video generation and editing,Gen-2 and Gen-3 models
+Pika,Frontier Models,Video Generation,Foundation,US,2023,AI video generation startup,Consumer video creation
+ElevenLabs,Frontier Models,Audio/Speech,Foundation,US,2022,AI voice synthesis platform,Text-to-speech leader
+Suno,Frontier Models,Audio/Speech,Foundation,US,2023,AI music generation,Full song generation
+NVIDIA,Infrastructure,Chips/GPUs,Hardware,US,1993,GPU computing platform,AI compute monopoly
+AMD,Infrastructure,Chips/GPUs,Hardware,US,1969,CPU and GPU manufacturer,MI300 AI accelerator
+Intel,Infrastructure,Chips/GPUs,Hardware,US,1968,Semiconductor manufacturer,Gaudi AI accelerator
+Cerebras,Infrastructure,AI Chips,Hardware,US,2016,Wafer-scale AI chip maker,Largest chip ever built
+Groq,Infrastructure,AI Chips,Hardware,US,2016,LPU inference chip maker,Fastest inference speeds
+SambaNova,Infrastructure,AI Chips,Hardware,US,2017,Reconfigurable dataflow AI chip,Enterprise AI platform
+d-Matrix,Infrastructure,AI Chips,Hardware,US,2019,In-memory compute chip for inference,Digital in-memory compute
+Tenstorrent,Infrastructure,AI Chips,Hardware,Canada,2016,RISC-V AI processor company,Jim Keller led
+AWS,Infrastructure,Cloud/Compute,Cloud,US,2006,Amazon cloud computing,Trainium and Inferentia chips
+Google Cloud,Infrastructure,Cloud/Compute,Cloud,US,2008,Google cloud platform,TPU infrastructure
+Microsoft Azure,Infrastructure,Cloud/Compute,Cloud,US,2010,Microsoft cloud platform,OpenAI partnership
+CoreWeave,Infrastructure,GPU Cloud,Cloud,US,2017,GPU cloud provider,NVIDIA GPU clusters
+Lambda,Infrastructure,GPU Cloud,Cloud,US,2012,GPU cloud for AI training,Developer-focused
+Together AI,Infrastructure,GPU Cloud,Cloud,US,2022,Open source model hosting,Inference and fine-tuning
+Corelight,Infrastructure,Cloud/Compute,Cloud,US,2013,Cloud network detection,Network security analytics
+Databricks,Data & MLOps,Data Platform,Platform,US,2013,Unified data analytics platform,Lakehouse architecture
+Snowflake,Data & MLOps,Data Platform,Platform,US,2012,Cloud data warehouse,Data sharing ecosystem
+Pinecone,Data & MLOps,Vector Database,Platform,US,2019,Vector database for AI,Leading vector DB
+Weaviate,Data & MLOps,Vector Database,Platform,Netherlands,2019,Open source vector database,GraphQL-native
+Chroma,Data & MLOps,Vector Database,Platform,US,2022,Open source embedding database,Developer-friendly
+Qdrant,Data & MLOps,Vector Database,Platform,Germany,2021,Vector similarity search engine,Rust-based performance
+Weights & Biases,Data & MLOps,ML Platform,Platform,US,2017,ML experiment tracking,MLOps standard
+Hugging Face,Data & MLOps,Model Hub,Platform,US,2016,Open source ML model hub,Community model sharing
+Scale AI,Data & MLOps,Data Labeling,Platform,US,2016,AI training data platform,Government and enterprise
+Labelbox,Data & MLOps,Data Labeling,Platform,US,2018,Data labeling platform,Annotation tools
+LangChain,Agent Frameworks,Orchestration,Middleware,US,2022,LLM application framework,Chain and agent orchestration
+LlamaIndex,Agent Frameworks,Orchestration,Middleware,US,2022,Data framework for LLMs,RAG framework leader
+CrewAI,Agent Frameworks,Multi-Agent,Middleware,US,2023,Multi-agent orchestration,Role-based agents
+AutoGen,Agent Frameworks,Multi-Agent,Middleware,US,2023,Microsoft multi-agent framework,Conversational agents
+Langfuse,Agent Frameworks,Observability,Middleware,Germany,2023,LLM observability platform,Open source tracing
+Helicone,Agent Frameworks,Observability,Middleware,US,2023,LLM observability and monitoring,Proxy-based logging
+Vercel,Developer Tools,Deployment,DevTools,US,2015,Frontend deployment platform,Next.js creator
+Cursor,Developer Tools,AI IDE,DevTools,US,2022,AI-native code editor,VS Code fork with AI
+GitHub Copilot,Developer Tools,Code Assistant,DevTools,US,2021,AI pair programmer,Most adopted AI coding tool
+Replit,Developer Tools,Cloud IDE,DevTools,US,2016,Browser-based IDE with AI,Ghostwriter AI
+Codeium,Developer Tools,Code Assistant,DevTools,US,2021,Free AI code completion,Enterprise code AI
+Tabnine,Developer Tools,Code Assistant,DevTools,Israel,2018,AI code completion,Privacy-focused
+Sourcegraph,Developer Tools,Code Search,DevTools,US,2013,Code intelligence platform,Cody AI assistant
+Snyk,Developer Tools,Security,DevTools,Israel,2015,Developer security platform,AI-powered security scanning
+Stripe,Vertical AI,Fintech,Application,US,2010,Payment infrastructure,AI fraud detection
+Plaid,Vertical AI,Fintech,Application,US,2013,Financial data connectivity,Banking API platform
+Brex,Vertical AI,Fintech,Application,US,2017,AI-powered corporate cards,Expense management
+Ramp,Vertical AI,Fintech,Application,US,2019,AI finance automation,Corporate card and spend
+Abridge,Vertical AI,Healthcare,Application,US,2018,AI medical documentation,Clinical conversation AI
+Viz.ai,Vertical AI,Healthcare,Application,US,2016,AI-powered care coordination,Medical imaging AI
+Tempus AI,Vertical AI,Healthcare,Application,US,2015,AI for precision medicine,Genomics and clinical data
+PathAI,Vertical AI,Healthcare,Application,US,2016,AI pathology platform,Digital pathology
+Recursion,Vertical AI,Drug Discovery,Application,US,2013,AI-driven drug discovery,Computational biology
+Insilico Medicine,Vertical AI,Drug Discovery,Application,Hong Kong,2014,AI for drug design,Generative chemistry
+Anduril,Vertical AI,Defense,Application,US,2017,Defense technology company,Autonomous systems
+Shield AI,Vertical AI,Defense,Application,US,2015,AI pilot for military aircraft,Autonomous flight
+Palantir,Vertical AI,Defense,Application,US,2003,Data analytics for defense and enterprise,AIP platform
+Saildrone,Vertical AI,Defense,Application,US,2012,Autonomous ocean vehicles,Maritime intelligence
+Harvey,Vertical AI,Legal,Application,US,2022,AI for legal work,LLM for lawyers
+Casetext,Vertical AI,Legal,Application,US,2013,AI legal research platform,CoCounsel AI
+Ironclad,Vertical AI,Legal,Application,US,2014,AI contract management,Legal workflow automation
+Jasper,Vertical AI,Marketing,Application,US,2021,AI marketing content platform,Enterprise marketing AI
+Copy.ai,Vertical AI,Marketing,Application,US,2020,AI copywriting platform,Marketing automation
+Writer,Vertical AI,Marketing,Application,US,2020,Enterprise AI writing platform,Brand governance
+Salesforce Einstein,Enterprise AI,CRM,Application,US,1999,AI-powered CRM,Largest enterprise AI deployment
+HubSpot,Enterprise AI,CRM,Application,US,2006,Inbound marketing and CRM,AI features across platform
+Gong,Enterprise AI,Revenue Intelligence,Application,US,2015,Revenue intelligence platform,Conversation analytics
+Clari,Enterprise AI,Revenue Intelligence,Application,US,2012,Revenue operations platform,AI forecasting
+Notion AI,Enterprise AI,Productivity,Application,US,2013,AI-enhanced workspace,Connected workspace AI
+Glean,Enterprise AI,Enterprise Search,Application,US,2019,AI enterprise search,Work AI platform
+Moveworks,Enterprise AI,IT Automation,Application,US,2016,AI for IT support,Enterprise copilot
+Intercom,Enterprise AI,Customer Support,Application,Ireland,2011,AI customer messaging,Fin AI chatbot
+Ada,Enterprise AI,Customer Support,Application,Canada,2016,AI customer service automation,Automated resolution
+Forethought,Enterprise AI,Customer Support,Application,US,2017,AI for customer support,Ticket resolution
+UiPath,Automation,RPA,Application,US,2005,Robotic process automation,AI-enhanced RPA
+Automation Anywhere,Automation,RPA,Application,US,2003,Enterprise automation,GenAI process automation
+Zapier,Automation,Workflow,Application,US,2011,Workflow automation platform,AI actions and integrations
+Make,Automation,Workflow,Application,Czech Republic,2012,Visual automation platform,Complex workflow builder
+Covariant,Robotics,Warehouse,Application,US,2017,AI for robotic picking,Foundation model for robots
+Figure AI,Robotics,Humanoid,Application,US,2022,Humanoid robot company,General purpose humanoid
+1X Technologies,Robotics,Humanoid,Application,Norway,2014,Humanoid robots for work,NEO humanoid robot
+Agility Robotics,Robotics,Humanoid,Application,US,2015,Bipedal robots,Digit warehouse robot
+Skild AI,Robotics,Foundation Model,Application,US,2023,Robot foundation model,General robot intelligence
+Physical Intelligence,Robotics,Foundation Model,Application,US,2024,Robot foundation model,Pi zero model
+Waymo,Robotics,Autonomous Vehicles,Application,US,2009,Self-driving technology,Alphabet subsidiary
+Cruise,Robotics,Autonomous Vehicles,Application,US,2013,Autonomous vehicle company,GM backed
+Nuro,Robotics,Autonomous Vehicles,Application,US,2016,Autonomous delivery vehicles,Last-mile delivery
+Aurora,Robotics,Autonomous Vehicles,Application,US,2017,Self-driving technology,Trucking focus
+Tesla AI,Robotics,Autonomous Vehicles,Application,US,2016,AI and robotics at Tesla,FSD and Optimus
+Perplexity,AI Applications,Search,Application,US,2022,AI-powered search engine,Answer engine
+Character.ai,AI Applications,Consumer,Application,US,2021,AI character chatbots,Consumer engagement leader
+Poe,AI Applications,Consumer,Application,US,2022,Multi-model AI platform,Quora product
+Tome,AI Applications,Productivity,Application,US,2020,AI presentation tool,Storytelling AI
+Beautiful.ai,AI Applications,Productivity,Application,US,2017,AI presentation software,Design automation
+Otter.ai,AI Applications,Productivity,Application,US,2016,AI meeting transcription,Meeting notes AI
+Fireflies.ai,AI Applications,Productivity,Application,US,2016,AI meeting assistant,Transcription and analysis
+Synthesia,AI Applications,Video,Application,UK,2017,AI video generation,Avatar-based video
+HeyGen,AI Applications,Video,Application,US,2020,AI video creation platform,Avatar and translation
+Descript,AI Applications,Video,Application,US,2017,AI video and audio editing,Podcast editing
+Luma AI,AI Applications,3D,Application,US,2021,AI 3D capture and generation,NeRF technology
+Typeface,AI Applications,Content,Application,US,2022,Enterprise content generation,Brand-safe AI content
+Abnormal Security,Cybersecurity AI,Email Security,Application,US,2018,AI email security,Behavioral AI detection
+CrowdStrike,Cybersecurity AI,Endpoint,Application,US,2011,AI-powered endpoint security,Charlotte AI
+SentinelOne,Cybersecurity AI,Endpoint,Application,US,2013,Autonomous endpoint security,Purple AI
+Darktrace,Cybersecurity AI,Network,Application,UK,2013,AI cyber defense,Self-learning AI
+Vectra AI,Cybersecurity AI,Network,Application,US,2012,AI threat detection,Network detection and response
+DataRobot,Data & MLOps,AutoML,Platform,US,2012,Automated machine learning,Enterprise AutoML
+Dataiku,Data & MLOps,Data Science,Platform,France,2013,Everyday AI platform,Collaborative data science
+Tecton,Data & MLOps,Feature Store,Platform,US,2019,Real-time feature platform,ML feature engineering
+Modal,Data & MLOps,Compute,Platform,US,2021,Serverless cloud for AI,Python-native compute
+Baseten,Data & MLOps,Model Serving,Platform,US,2019,ML model deployment,Inference infrastructure
+Replicate,Data & MLOps,Model Serving,Platform,US,2019,ML model hosting,API-based model access
+Comet,Data & MLOps,ML Platform,Platform,US,2017,ML experiment management,Model monitoring
+Neptune.ai,Data & MLOps,ML Platform,Platform,Poland,2017,ML metadata store,Experiment tracking
+Unstructured,Data & MLOps,Data Processing,Platform,US,2022,Unstructured data ETL,Document processing
+Cleanlab,Data & MLOps,Data Quality,Platform,US,2021,Data-centric AI platform,Auto data cleaning
