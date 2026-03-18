@@ -1,127 +1,157 @@
-Company,Category,Subcategory,Layer,Geo,Year Founded,Description,Notes
-OpenAI,Frontier Models,Large Language Models,Foundation,US,2015,Developer of GPT series and ChatGPT,Leading frontier lab
-Anthropic,Frontier Models,Large Language Models,Foundation,US,2021,AI safety company building Claude,Focus on safety and alignment
-Google DeepMind,Frontier Models,Large Language Models,Foundation,US,2010,AI research lab within Google,Merged DeepMind and Google Brain
-Meta AI,Frontier Models,Open Source Models,Foundation,US,2013,Open source LLM research at Meta,Llama model family
-Mistral AI,Frontier Models,Open Source Models,Foundation,France,2023,European frontier AI lab,Strong open-weight models
-Cohere,Frontier Models,Enterprise LLMs,Foundation,Canada,2019,Enterprise-focused LLM provider,RAG and enterprise search focus
-AI21 Labs,Frontier Models,Enterprise LLMs,Foundation,Israel,2017,Enterprise AI with Jamba models,Mamba architecture pioneer
-xAI,Frontier Models,Large Language Models,Foundation,US,2023,Elon Musk AI venture building Grok,Focus on truth-seeking AI
-Inflection AI,Frontier Models,Consumer AI,Foundation,US,2022,Personal AI assistant Pi,Consumer conversational AI
-Stability AI,Frontier Models,Image Generation,Foundation,UK,2019,Open source image generation,Stable Diffusion creator
-Midjourney,Frontier Models,Image Generation,Foundation,US,2021,AI image generation platform,Design-focused generation
-Runway,Frontier Models,Video Generation,Foundation,US,2018,AI video generation and editing,Gen-2 and Gen-3 models
-Pika,Frontier Models,Video Generation,Foundation,US,2023,AI video generation startup,Consumer video creation
-ElevenLabs,Frontier Models,Audio/Speech,Foundation,US,2022,AI voice synthesis platform,Text-to-speech leader
-Suno,Frontier Models,Audio/Speech,Foundation,US,2023,AI music generation,Full song generation
-NVIDIA,Infrastructure,Chips/GPUs,Hardware,US,1993,GPU computing platform,AI compute monopoly
-AMD,Infrastructure,Chips/GPUs,Hardware,US,1969,CPU and GPU manufacturer,MI300 AI accelerator
-Intel,Infrastructure,Chips/GPUs,Hardware,US,1968,Semiconductor manufacturer,Gaudi AI accelerator
-Cerebras,Infrastructure,AI Chips,Hardware,US,2016,Wafer-scale AI chip maker,Largest chip ever built
-Groq,Infrastructure,AI Chips,Hardware,US,2016,LPU inference chip maker,Fastest inference speeds
-SambaNova,Infrastructure,AI Chips,Hardware,US,2017,Reconfigurable dataflow AI chip,Enterprise AI platform
-d-Matrix,Infrastructure,AI Chips,Hardware,US,2019,In-memory compute chip for inference,Digital in-memory compute
-Tenstorrent,Infrastructure,AI Chips,Hardware,Canada,2016,RISC-V AI processor company,Jim Keller led
-AWS,Infrastructure,Cloud/Compute,Cloud,US,2006,Amazon cloud computing,Trainium and Inferentia chips
-Google Cloud,Infrastructure,Cloud/Compute,Cloud,US,2008,Google cloud platform,TPU infrastructure
-Microsoft Azure,Infrastructure,Cloud/Compute,Cloud,US,2010,Microsoft cloud platform,OpenAI partnership
-CoreWeave,Infrastructure,GPU Cloud,Cloud,US,2017,GPU cloud provider,NVIDIA GPU clusters
-Lambda,Infrastructure,GPU Cloud,Cloud,US,2012,GPU cloud for AI training,Developer-focused
-Together AI,Infrastructure,GPU Cloud,Cloud,US,2022,Open source model hosting,Inference and fine-tuning
-Corelight,Infrastructure,Cloud/Compute,Cloud,US,2013,Cloud network detection,Network security analytics
-Databricks,Data & MLOps,Data Platform,Platform,US,2013,Unified data analytics platform,Lakehouse architecture
-Snowflake,Data & MLOps,Data Platform,Platform,US,2012,Cloud data warehouse,Data sharing ecosystem
-Pinecone,Data & MLOps,Vector Database,Platform,US,2019,Vector database for AI,Leading vector DB
-Weaviate,Data & MLOps,Vector Database,Platform,Netherlands,2019,Open source vector database,GraphQL-native
-Chroma,Data & MLOps,Vector Database,Platform,US,2022,Open source embedding database,Developer-friendly
-Qdrant,Data & MLOps,Vector Database,Platform,Germany,2021,Vector similarity search engine,Rust-based performance
-Weights & Biases,Data & MLOps,ML Platform,Platform,US,2017,ML experiment tracking,MLOps standard
-Hugging Face,Data & MLOps,Model Hub,Platform,US,2016,Open source ML model hub,Community model sharing
-Scale AI,Data & MLOps,Data Labeling,Platform,US,2016,AI training data platform,Government and enterprise
-Labelbox,Data & MLOps,Data Labeling,Platform,US,2018,Data labeling platform,Annotation tools
-LangChain,Agent Frameworks,Orchestration,Middleware,US,2022,LLM application framework,Chain and agent orchestration
-LlamaIndex,Agent Frameworks,Orchestration,Middleware,US,2022,Data framework for LLMs,RAG framework leader
-CrewAI,Agent Frameworks,Multi-Agent,Middleware,US,2023,Multi-agent orchestration,Role-based agents
-AutoGen,Agent Frameworks,Multi-Agent,Middleware,US,2023,Microsoft multi-agent framework,Conversational agents
-Langfuse,Agent Frameworks,Observability,Middleware,Germany,2023,LLM observability platform,Open source tracing
-Helicone,Agent Frameworks,Observability,Middleware,US,2023,LLM observability and monitoring,Proxy-based logging
-Vercel,Developer Tools,Deployment,DevTools,US,2015,Frontend deployment platform,Next.js creator
-Cursor,Developer Tools,AI IDE,DevTools,US,2022,AI-native code editor,VS Code fork with AI
-GitHub Copilot,Developer Tools,Code Assistant,DevTools,US,2021,AI pair programmer,Most adopted AI coding tool
-Replit,Developer Tools,Cloud IDE,DevTools,US,2016,Browser-based IDE with AI,Ghostwriter AI
-Codeium,Developer Tools,Code Assistant,DevTools,US,2021,Free AI code completion,Enterprise code AI
-Tabnine,Developer Tools,Code Assistant,DevTools,Israel,2018,AI code completion,Privacy-focused
-Sourcegraph,Developer Tools,Code Search,DevTools,US,2013,Code intelligence platform,Cody AI assistant
-Snyk,Developer Tools,Security,DevTools,Israel,2015,Developer security platform,AI-powered security scanning
-Stripe,Vertical AI,Fintech,Application,US,2010,Payment infrastructure,AI fraud detection
-Plaid,Vertical AI,Fintech,Application,US,2013,Financial data connectivity,Banking API platform
-Brex,Vertical AI,Fintech,Application,US,2017,AI-powered corporate cards,Expense management
-Ramp,Vertical AI,Fintech,Application,US,2019,AI finance automation,Corporate card and spend
-Abridge,Vertical AI,Healthcare,Application,US,2018,AI medical documentation,Clinical conversation AI
-Viz.ai,Vertical AI,Healthcare,Application,US,2016,AI-powered care coordination,Medical imaging AI
-Tempus AI,Vertical AI,Healthcare,Application,US,2015,AI for precision medicine,Genomics and clinical data
-PathAI,Vertical AI,Healthcare,Application,US,2016,AI pathology platform,Digital pathology
-Recursion,Vertical AI,Drug Discovery,Application,US,2013,AI-driven drug discovery,Computational biology
-Insilico Medicine,Vertical AI,Drug Discovery,Application,Hong Kong,2014,AI for drug design,Generative chemistry
-Anduril,Vertical AI,Defense,Application,US,2017,Defense technology company,Autonomous systems
-Shield AI,Vertical AI,Defense,Application,US,2015,AI pilot for military aircraft,Autonomous flight
-Palantir,Vertical AI,Defense,Application,US,2003,Data analytics for defense and enterprise,AIP platform
-Saildrone,Vertical AI,Defense,Application,US,2012,Autonomous ocean vehicles,Maritime intelligence
-Harvey,Vertical AI,Legal,Application,US,2022,AI for legal work,LLM for lawyers
-Casetext,Vertical AI,Legal,Application,US,2013,AI legal research platform,CoCounsel AI
-Ironclad,Vertical AI,Legal,Application,US,2014,AI contract management,Legal workflow automation
-Jasper,Vertical AI,Marketing,Application,US,2021,AI marketing content platform,Enterprise marketing AI
-Copy.ai,Vertical AI,Marketing,Application,US,2020,AI copywriting platform,Marketing automation
-Writer,Vertical AI,Marketing,Application,US,2020,Enterprise AI writing platform,Brand governance
-Salesforce Einstein,Enterprise AI,CRM,Application,US,1999,AI-powered CRM,Largest enterprise AI deployment
-HubSpot,Enterprise AI,CRM,Application,US,2006,Inbound marketing and CRM,AI features across platform
-Gong,Enterprise AI,Revenue Intelligence,Application,US,2015,Revenue intelligence platform,Conversation analytics
-Clari,Enterprise AI,Revenue Intelligence,Application,US,2012,Revenue operations platform,AI forecasting
-Notion AI,Enterprise AI,Productivity,Application,US,2013,AI-enhanced workspace,Connected workspace AI
-Glean,Enterprise AI,Enterprise Search,Application,US,2019,AI enterprise search,Work AI platform
-Moveworks,Enterprise AI,IT Automation,Application,US,2016,AI for IT support,Enterprise copilot
-Intercom,Enterprise AI,Customer Support,Application,Ireland,2011,AI customer messaging,Fin AI chatbot
-Ada,Enterprise AI,Customer Support,Application,Canada,2016,AI customer service automation,Automated resolution
-Forethought,Enterprise AI,Customer Support,Application,US,2017,AI for customer support,Ticket resolution
-UiPath,Automation,RPA,Application,US,2005,Robotic process automation,AI-enhanced RPA
-Automation Anywhere,Automation,RPA,Application,US,2003,Enterprise automation,GenAI process automation
-Zapier,Automation,Workflow,Application,US,2011,Workflow automation platform,AI actions and integrations
-Make,Automation,Workflow,Application,Czech Republic,2012,Visual automation platform,Complex workflow builder
-Covariant,Robotics,Warehouse,Application,US,2017,AI for robotic picking,Foundation model for robots
-Figure AI,Robotics,Humanoid,Application,US,2022,Humanoid robot company,General purpose humanoid
-1X Technologies,Robotics,Humanoid,Application,Norway,2014,Humanoid robots for work,NEO humanoid robot
-Agility Robotics,Robotics,Humanoid,Application,US,2015,Bipedal robots,Digit warehouse robot
-Skild AI,Robotics,Foundation Model,Application,US,2023,Robot foundation model,General robot intelligence
-Physical Intelligence,Robotics,Foundation Model,Application,US,2024,Robot foundation model,Pi zero model
-Waymo,Robotics,Autonomous Vehicles,Application,US,2009,Self-driving technology,Alphabet subsidiary
-Cruise,Robotics,Autonomous Vehicles,Application,US,2013,Autonomous vehicle company,GM backed
-Nuro,Robotics,Autonomous Vehicles,Application,US,2016,Autonomous delivery vehicles,Last-mile delivery
-Aurora,Robotics,Autonomous Vehicles,Application,US,2017,Self-driving technology,Trucking focus
-Tesla AI,Robotics,Autonomous Vehicles,Application,US,2016,AI and robotics at Tesla,FSD and Optimus
-Perplexity,AI Applications,Search,Application,US,2022,AI-powered search engine,Answer engine
-Character.ai,AI Applications,Consumer,Application,US,2021,AI character chatbots,Consumer engagement leader
-Poe,AI Applications,Consumer,Application,US,2022,Multi-model AI platform,Quora product
-Tome,AI Applications,Productivity,Application,US,2020,AI presentation tool,Storytelling AI
-Beautiful.ai,AI Applications,Productivity,Application,US,2017,AI presentation software,Design automation
-Otter.ai,AI Applications,Productivity,Application,US,2016,AI meeting transcription,Meeting notes AI
-Fireflies.ai,AI Applications,Productivity,Application,US,2016,AI meeting assistant,Transcription and analysis
-Synthesia,AI Applications,Video,Application,UK,2017,AI video generation,Avatar-based video
-HeyGen,AI Applications,Video,Application,US,2020,AI video creation platform,Avatar and translation
-Descript,AI Applications,Video,Application,US,2017,AI video and audio editing,Podcast editing
-Luma AI,AI Applications,3D,Application,US,2021,AI 3D capture and generation,NeRF technology
-Typeface,AI Applications,Content,Application,US,2022,Enterprise content generation,Brand-safe AI content
-Abnormal Security,Cybersecurity AI,Email Security,Application,US,2018,AI email security,Behavioral AI detection
-CrowdStrike,Cybersecurity AI,Endpoint,Application,US,2011,AI-powered endpoint security,Charlotte AI
-SentinelOne,Cybersecurity AI,Endpoint,Application,US,2013,Autonomous endpoint security,Purple AI
-Darktrace,Cybersecurity AI,Network,Application,UK,2013,AI cyber defense,Self-learning AI
-Vectra AI,Cybersecurity AI,Network,Application,US,2012,AI threat detection,Network detection and response
-DataRobot,Data & MLOps,AutoML,Platform,US,2012,Automated machine learning,Enterprise AutoML
-Dataiku,Data & MLOps,Data Science,Platform,France,2013,Everyday AI platform,Collaborative data science
-Tecton,Data & MLOps,Feature Store,Platform,US,2019,Real-time feature platform,ML feature engineering
-Modal,Data & MLOps,Compute,Platform,US,2021,Serverless cloud for AI,Python-native compute
-Baseten,Data & MLOps,Model Serving,Platform,US,2019,ML model deployment,Inference infrastructure
-Replicate,Data & MLOps,Model Serving,Platform,US,2019,ML model hosting,API-based model access
-Comet,Data & MLOps,ML Platform,Platform,US,2017,ML experiment management,Model monitoring
-Neptune.ai,Data & MLOps,ML Platform,Platform,Poland,2017,ML metadata store,Experiment tracking
-Unstructured,Data & MLOps,Data Processing,Platform,US,2022,Unstructured data ETL,Document processing
-Cleanlab,Data & MLOps,Data Quality,Platform,US,2021,Data-centric AI platform,Auto data cleaning
+Company,Category,Subcategory,Layer,Geo,Year Founded,Headquarters,Description,Notes,Website,Funding Total USD,Last Round,Last Round USD,Last Round Date,Valuation USD,Company Type,Ticker,Employee Count,Revenue Estimate USD,Investors
+OpenAI,Frontier Models,Large Language Models,Foundation,US,2015,"San Francisco, CA",Developer of GPT series and ChatGPT,Leading frontier lab,openai.com,17600000000,Venture,6600000000,2024-10,157000000000,private,,3500,3400000000,"Microsoft, Thrive Capital, Khosla Ventures, SoftBank"
+Anthropic,Frontier Models,Large Language Models,Foundation,US,2021,"San Francisco, CA",AI safety company building Claude,Focus on safety and alignment,anthropic.com,13700000000,Series E,2000000000,2025-01,61500000000,private,,1600,1200000000,"Google, Spark Capital, Salesforce Ventures, Amazon"
+Google DeepMind,Frontier Models,Large Language Models,Foundation,UK,2010,"London, UK",AI research lab within Google,Merged DeepMind and Google Brain,deepmind.google,,,,,,subsidiary,,2800,,"Alphabet"
+Meta AI,Frontier Models,Open Source Models,Foundation,US,2013,"Menlo Park, CA",Open source LLM research at Meta,Llama model family,ai.meta.com,,,,,,subsidiary,,1500,,"Meta Platforms"
+Mistral AI,Frontier Models,Open Source Models,Foundation,France,2023,"Paris, France",European frontier AI lab,Strong open-weight models,mistral.ai,1100000000,Series B,600000000,2024-06,6000000000,private,,60,35000000,"Andreessen Horowitz, Lightspeed, General Catalyst"
+Cohere,Frontier Models,Enterprise LLMs,Foundation,Canada,2019,"Toronto, Canada",Enterprise-focused LLM provider,RAG and enterprise search focus,cohere.com,970000000,Series D,500000000,2024-06,5500000000,private,,450,35000000,"NVIDIA, Salesforce Ventures, Inovia Capital"
+AI21 Labs,Frontier Models,Enterprise LLMs,Foundation,Israel,2017,"Tel Aviv, Israel",Enterprise AI with Jamba models,Mamba architecture pioneer,ai21.com,336000000,Series C,208000000,2023-08,1400000000,private,,250,20000000,"Google, NVIDIA, Intel Capital"
+xAI,Frontier Models,Large Language Models,Foundation,US,2023,"Palo Alto, CA",Elon Musk AI venture building Grok,Focus on truth-seeking AI,x.ai,12000000000,Series C,6000000000,2024-12,50000000000,private,,200,,"Sequoia Capital, a16z, Valor Equity Partners"
+Inflection AI,Frontier Models,Consumer AI,Foundation,US,2022,"Palo Alto, CA",Personal AI assistant Pi,Most team joined Microsoft,inflection.ai,1525000000,Series B,1300000000,2023-06,4000000000,private,,35,,"Microsoft, NVIDIA, Reid Hoffman, Bill Gates"
+Stability AI,Frontier Models,Image Generation,Foundation,UK,2019,"London, UK",Open source image generation,Stable Diffusion creator,stability.ai,262000000,Series B,101000000,2023-04,1000000000,private,,150,50000000,"Coatue, Lightspeed, O'Shaughnessy Ventures"
+Midjourney,Frontier Models,Image Generation,Foundation,US,2021,"San Francisco, CA",AI image generation platform,Self-funded profitable,midjourney.com,0,Self-funded,0,,10000000000,private,,55,200000000,Self-funded
+Runway,Frontier Models,Video Generation,Foundation,US,2018,"New York, NY",AI video generation and editing,Gen-2 and Gen-3 models,runwayml.com,237000000,Series D,141000000,2024-06,4000000000,private,,150,50000000,"Google, NVIDIA, Felicis, Lux Capital"
+Pika,Frontier Models,Video Generation,Foundation,US,2023,"Palo Alto, CA",AI video generation startup,Consumer video creation,pika.art,135000000,Series B,80000000,2024-06,470000000,private,,45,,"Spark Capital, Lightspeed, Jared Leto"
+ElevenLabs,Frontier Models,Audio/Speech,Foundation,US,2022,"New York, NY",AI voice synthesis platform,Text-to-speech leader,elevenlabs.io,281000000,Series C,180000000,2025-01,3000000000,private,,200,80000000,"Andreessen Horowitz, Nat Friedman, Daniel Gross"
+Suno,Frontier Models,Audio/Speech,Foundation,US,2023,"Cambridge, MA",AI music generation,Full song generation,suno.com,125000000,Series B,125000000,2024-05,500000000,private,,45,,"Lightspeed, Nat Friedman, Daniel Gross"
+NVIDIA,Infrastructure,Chips/GPUs,Hardware,US,1993,"Santa Clara, CA",GPU computing platform,AI compute monopoly,nvidia.com,,,,,,public,NVDA,29600,60922000000,"Public company"
+AMD,Infrastructure,Chips/GPUs,Hardware,US,1969,"Santa Clara, CA",CPU and GPU manufacturer,MI300 AI accelerator,amd.com,,,,,,public,AMD,26000,22680000000,"Public company"
+Intel,Infrastructure,Chips/GPUs,Hardware,US,1968,"Santa Clara, CA",Semiconductor manufacturer,Gaudi AI accelerator,intel.com,,,,,,public,INTC,124800,54228000000,"Public company"
+Cerebras,Infrastructure,AI Chips,Hardware,US,2016,"Sunnyvale, CA",Wafer-scale AI chip maker,Largest chip ever built,cerebras.net,720000000,Series F,250000000,2023-11,4250000000,private,,400,,"a16z, Benchmark, Eclipse Ventures"
+Groq,Infrastructure,AI Chips,Hardware,US,2016,"Mountain View, CA",LPU inference chip maker,Fastest inference speeds,groq.com,640000000,Series D,300000000,2024-04,2800000000,private,,250,,"Tiger Global, D1 Capital, Samsung"
+SambaNova,Infrastructure,AI Chips,Hardware,US,2017,"Palo Alto, CA",Reconfigurable dataflow AI chip,Enterprise AI platform,sambanova.ai,1120000000,Series D,676000000,2023-04,5000000000,private,,500,,"SoftBank, BlackRock, Intel Capital, GV"
+d-Matrix,Infrastructure,AI Chips,Hardware,US,2019,"Santa Clara, CA",In-memory compute chip for inference,Digital in-memory compute,d-matrix.ai,154000000,Series B,110000000,2023-10,,private,,120,,"Microsoft, SK Hynix, Tracker Capital"
+Tenstorrent,Infrastructure,AI Chips,Hardware,Canada,2016,"Toronto, Canada",RISC-V AI processor company,Jim Keller led,tenstorrent.com,323000000,Series D,193000000,2024-01,2600000000,private,,350,,"Hyundai, Samsung, Eclipse, Bezos Expeditions"
+AWS,Infrastructure,Cloud/Compute,Cloud,US,2006,"Seattle, WA",Amazon cloud computing,Trainium and Inferentia chips,aws.amazon.com,,,,,,subsidiary,,,,Amazon
+Google Cloud,Infrastructure,Cloud/Compute,Cloud,US,2008,"Sunnyvale, CA",Google cloud platform,TPU infrastructure,cloud.google.com,,,,,,subsidiary,,,,Alphabet
+Microsoft Azure,Infrastructure,Cloud/Compute,Cloud,US,2010,"Redmond, WA",Microsoft cloud platform,OpenAI partnership,azure.microsoft.com,,,,,,subsidiary,,,,Microsoft
+CoreWeave,Infrastructure,GPU Cloud,Cloud,US,2017,"Livingston, NJ",GPU cloud provider,NVIDIA GPU clusters,coreweave.com,10200000000,Series C,7500000000,2025-03,35000000000,private,,1100,,"Magnetar, Coatue, Jane Street, NVIDIA"
+Lambda,Infrastructure,GPU Cloud,Cloud,US,2012,"San Francisco, CA",GPU cloud for AI training,Developer-focused,lambdalabs.com,320000000,Series C,320000000,2024-04,1500000000,private,,200,,"USIT, Bloomberg Beta, Gradient Ventures"
+Together AI,Infrastructure,GPU Cloud,Cloud,US,2022,"San Francisco, CA",Open source model hosting,Inference and fine-tuning,together.ai,425000000,Series A,106000000,2024-02,1250000000,private,,130,,"Salesforce, NVIDIA, Kleiner Perkins"
+Voltage Park,Infrastructure,GPU Cloud,Cloud,US,2023,"San Francisco, CA",GPU cloud infrastructure,Non-profit backed GPU access,voltagepark.com,500000000,Grant,500000000,2024-01,,private,,30,,"Jed McCaleb Foundation"
+Crusoe Energy,Infrastructure,GPU Cloud,Cloud,US,2018,"Denver, CO",Clean energy AI cloud,Stranded gas to compute,crusoe.ai,600000000,Series C,350000000,2024-02,2800000000,private,,280,,"Valor Equity Partners, Polychain Capital"
+Databricks,Data & MLOps,Data Platform,Platform,US,2013,"San Francisco, CA",Unified data analytics platform,Lakehouse architecture,databricks.com,5950000000,Series J,10000000000,2024-12,62000000000,private,,7000,2400000000,"a16z, Thrive Capital, DST Global"
+Snowflake,Data & MLOps,Data Platform,Platform,US,2012,"Bozeman, MT",Cloud data warehouse,Data sharing ecosystem,snowflake.com,,,,,,public,SNOW,5884,2806000000,"Public company"
+Pinecone,Data & MLOps,Vector Database,Platform,US,2019,"New York, NY",Vector database for AI,Leading vector DB,pinecone.io,238000000,Series B,100000000,2023-04,750000000,private,,180,,"a16z, Menlo Ventures, Wing VC"
+Weaviate,Data & MLOps,Vector Database,Platform,Netherlands,2019,"Amsterdam, Netherlands",Open source vector database,GraphQL-native,weaviate.io,68000000,Series B,50000000,2023-04,200000000,private,,100,,"NEA, Cortical Ventures, ING Ventures"
+Chroma,Data & MLOps,Vector Database,Platform,US,2022,"San Francisco, CA",Open source embedding database,Developer-friendly,trychroma.com,18000000,Seed,18000000,2023-04,,private,,20,,"a16z, Bloomberg Beta"
+Qdrant,Data & MLOps,Vector Database,Platform,Germany,2021,"Berlin, Germany",Vector similarity search engine,Rust-based performance,qdrant.tech,12000000,Series A,7500000,2023-07,,private,,45,,"Unusual Ventures, Harpoon, 42CAP"
+Weights & Biases,Data & MLOps,ML Platform,Platform,US,2017,"San Francisco, CA",ML experiment tracking,MLOps standard,wandb.ai,250000000,Series D,250000000,2024-09,1250000000,private,,300,,"Insight Partners, Felicis, Trinity"
+Hugging Face,Data & MLOps,Model Hub,Platform,US,2016,"New York, NY",Open source ML model hub,Community model sharing,huggingface.co,395000000,Series D,235000000,2023-08,4500000000,private,,300,70000000,"Google, Amazon, NVIDIA, Salesforce, a16z"
+Scale AI,Data & MLOps,Data Labeling,Platform,US,2016,"San Francisco, CA",AI training data platform,Government and enterprise,scale.com,1500000000,Series F,1000000000,2024-05,13800000000,private,,700,700000000,"Accel, Tiger Global, Spark Capital, Amazon"
+Labelbox,Data & MLOps,Data Labeling,Platform,US,2018,"San Francisco, CA",Data labeling platform,Annotation tools,labelbox.com,188000000,Series D,79000000,2022-01,1000000000,private,,260,,"a16z, Kleiner Perkins, Gradient Ventures"
+LangChain,Agent Frameworks,Orchestration,Middleware,US,2022,"San Francisco, CA",LLM application framework,Chain and agent orchestration,langchain.com,45000000,Series A,25000000,2024-02,200000000,private,,60,,"Sequoia, Benchmark"
+LlamaIndex,Agent Frameworks,Orchestration,Middleware,US,2022,"San Francisco, CA",Data framework for LLMs,RAG framework leader,llamaindex.ai,34000000,Series A,19000000,2024-02,,private,,30,,"Madrona, a16z"
+CrewAI,Agent Frameworks,Multi-Agent,Middleware,US,2023,"San Francisco, CA",Multi-agent orchestration,Role-based agents,crewai.com,18000000,Series A,18000000,2024-05,,private,,25,,"a16z, Felicis"
+AutoGen,Agent Frameworks,Multi-Agent,Middleware,US,2023,"Redmond, WA",Microsoft multi-agent framework,Conversational agents,microsoft.github.io/autogen,,,,,,subsidiary,,,,Microsoft
+Langfuse,Agent Frameworks,Observability,Middleware,Germany,2023,"Berlin, Germany",LLM observability platform,Open source tracing,langfuse.com,4000000,Seed,4000000,2023-12,,private,,15,,"Y Combinator, La Famiglia, Lightspeed Scout"
+Helicone,Agent Frameworks,Observability,Middleware,US,2023,"San Francisco, CA",LLM observability and monitoring,Proxy-based logging,helicone.ai,5000000,Seed,5000000,2024-02,,private,,15,,"Y Combinator"
+Vercel,Developer Tools,Deployment,DevTools,US,2015,"San Francisco, CA",Frontend deployment platform,Next.js creator,vercel.com,563000000,Series E,150000000,2024-05,3250000000,private,,450,100000000,"Accel, CRV, GV, Bedrock"
+Cursor,Developer Tools,AI IDE,DevTools,US,2022,"San Francisco, CA",AI-native code editor,VS Code fork with AI,cursor.com,400000000,Series C,400000000,2025-01,9000000000,private,,50,100000000,"a16z, Thrive Capital, Stripe"
+GitHub Copilot,Developer Tools,Code Assistant,DevTools,US,2021,"San Francisco, CA",AI pair programmer,Most adopted AI coding tool,github.com/features/copilot,,,,,,subsidiary,,,,Microsoft
+Replit,Developer Tools,Cloud IDE,DevTools,US,2016,"San Francisco, CA",Browser-based IDE with AI,Ghostwriter AI,replit.com,222000000,Series C,97400000,2023-04,1160000000,private,,130,,"a16z, Coatue, SV Angel"
+Codeium,Developer Tools,Code Assistant,DevTools,US,2021,"Mountain View, CA",Free AI code completion,Enterprise code AI,codeium.com,150000000,Series C,150000000,2024-08,1250000000,private,,70,,"Greenoaks, General Catalyst, Kleiner Perkins"
+Tabnine,Developer Tools,Code Assistant,DevTools,Israel,2018,"Tel Aviv, Israel",AI code completion,Privacy-focused,tabnine.com,55000000,Series B,25000000,2023-06,,private,,120,,"Telstra Ventures, Qualcomm, Khosla"
+Sourcegraph,Developer Tools,Code Search,DevTools,US,2013,"San Francisco, CA",Code intelligence platform,Cody AI assistant,sourcegraph.com,225000000,Series D,125000000,2022-07,2625000000,private,,350,40000000,"a16z, Insight Partners, Sequoia"
+Snyk,Developer Tools,Security,DevTools,Israel,2015,"Boston, MA",Developer security platform,AI-powered security scanning,snyk.io,1010000000,Series G,196500000,2024-03,7400000000,private,,1300,250000000,"Accel, GV, Tiger Global, Coatue"
+Stripe,Vertical AI,Fintech,Application,US,2010,"San Francisco, CA",Payment infrastructure,AI fraud detection,stripe.com,9400000000,Secondary,6500000000,2024-04,65000000000,private,,8000,1400000000,"Sequoia, a16z, GV, Thrive Capital"
+Plaid,Vertical AI,Fintech,Application,US,2013,"San Francisco, CA",Financial data connectivity,Banking API platform,plaid.com,734000000,Series D,425000000,2021-04,13400000000,private,,1100,500000000,"Ribbit Capital, Altimeter, Silver Lake, NEA"
+Brex,Vertical AI,Fintech,Application,US,2017,"San Francisco, CA",AI-powered corporate cards,Expense management,brex.com,1200000000,Series D,300000000,2022-01,12300000000,private,,1100,400000000,"Tiger Global, Y Combinator, Ribbit Capital"
+Ramp,Vertical AI,Fintech,Application,US,2019,"New York, NY",AI finance automation,Corporate card and spend,ramp.com,1200000000,Series D,300000000,2024-03,7650000000,private,,750,500000000,"Founders Fund, Khosla, Thrive Capital, Stripe"
+Abridge,Vertical AI,Healthcare,Application,US,2018,"Pittsburgh, PA",AI medical documentation,Clinical conversation AI,abridge.com,212500000,Series C,150000000,2024-02,850000000,private,,200,,"CVS Health Ventures, NVCA, a16z Bio"
+Viz.ai,Vertical AI,Healthcare,Application,US,2016,"San Francisco, CA",AI-powered care coordination,Medical imaging AI,viz.ai,252000000,Series D,100000000,2022-09,1200000000,private,,350,,"Insight Partners, Tiger Global, GV, Greenoaks"
+Tempus AI,Vertical AI,Healthcare,Application,US,2015,"Chicago, IL",AI for precision medicine,Genomics and clinical data,tempus.com,1300000000,IPO,,2024-06,6100000000,public,TEM,2700,532000000,"New Enterprise Associates, T. Rowe Price"
+PathAI,Vertical AI,Healthcare,Application,US,2016,"Boston, MA",AI pathology platform,Digital pathology,pathai.com,256000000,Series C,165000000,2021-08,,private,,350,,"General Atlantic, Tiger Global, D1 Capital"
+Recursion,Vertical AI,Drug Discovery,Application,US,2013,"Salt Lake City, UT",AI-driven drug discovery,Computational biology,recursion.com,890000000,IPO,,2021-04,3000000000,public,RXRX,700,51000000,"Public company"
+Insilico Medicine,Vertical AI,Drug Discovery,Application,Hong Kong,2014,"Hong Kong",AI for drug design,Generative chemistry,insilico.com,407000000,Series D,95000000,2024-01,,private,,600,,"Warburg Pincus, B Capital, Lilly Asia Ventures"
+Anduril,Vertical AI,Defense,Application,US,2017,"Costa Mesa, CA",Defense technology company,Autonomous systems,anduril.com,3700000000,Series F,1500000000,2024-08,14000000000,private,,3000,800000000,"Founders Fund, a16z, Lux Capital, General Catalyst"
+Shield AI,Vertical AI,Defense,Application,US,2015,"San Diego, CA",AI pilot for military aircraft,Autonomous flight,shield.ai,980000000,Series F,300000000,2024-06,5300000000,private,,700,200000000,"Andreessen Horowitz, Riot Ventures, Point72"
+Palantir,Vertical AI,Defense,Application,US,2003,"Denver, CO",Data analytics for defense and enterprise,AIP platform,palantir.com,,,,,,public,PLTR,3838,2870000000,"Public company"
+Saildrone,Vertical AI,Defense,Application,US,2012,"Alameda, CA",Autonomous ocean vehicles,Maritime intelligence,saildrone.com,240000000,Series C,100000000,2022-10,,private,,300,,"BOND, Social Capital, Spark Capital"
+Harvey,Vertical AI,Legal,Application,US,2022,"San Francisco, CA",AI for legal work,LLM for lawyers,harvey.ai,206000000,Series C,100000000,2024-07,1500000000,private,,100,,"Sequoia, Kleiner Perkins, Elad Gil, Google"
+Casetext,Vertical AI,Legal,Application,US,2013,"San Francisco, CA",AI legal research platform,CoCounsel AI — acquired by Thomson Reuters,casetext.com,,,,2023-08,650000000,acquired,,200,,"Union Square Ventures, Citi Ventures (Acquired by Thomson Reuters)"
+Ironclad,Vertical AI,Legal,Application,US,2014,"San Francisco, CA",AI contract management,Legal workflow automation,ironcladapp.com,333000000,Series E,150000000,2022-01,3200000000,private,,400,60000000,"Accel, Y Combinator, Sequoia, Franklin Templeton"
+Jasper,Vertical AI,Marketing,Application,US,2021,"Austin, TX",AI marketing content platform,Enterprise marketing AI,jasper.ai,305000000,Series C,125000000,2023-10,1500000000,private,,350,130000000,"Insight Partners, IVP, Bessemer"
+Copy.ai,Vertical AI,Marketing,Application,US,2020,"Memphis, TN",AI copywriting platform,Marketing automation,copy.ai,14000000,Series A,11000000,2023-03,,private,,100,,"Wing VC, Tiger Global, Sequoia Scout"
+Writer,Vertical AI,Marketing,Application,US,2020,"San Francisco, CA",Enterprise AI writing platform,Brand governance,writer.com,226000000,Series C,200000000,2025-01,1900000000,private,,200,,"ICONIQ Growth, Insight Partners, Balderton"
+Salesforce,Enterprise AI,CRM,Application,US,1999,"San Francisco, CA",AI-powered CRM,Einstein + Agentforce,salesforce.com,,,,,,public,CRM,72682,34857000000,"Public company"
+HubSpot,Enterprise AI,CRM,Application,US,2006,"Cambridge, MA",Inbound marketing and CRM,AI features across platform,hubspot.com,,,,,,public,HUBS,7700,2628000000,"Public company"
+Gong,Enterprise AI,Revenue Intelligence,Application,US,2015,"San Francisco, CA",Revenue intelligence platform,Conversation analytics,gong.io,584000000,Series E,250000000,2021-06,7250000000,private,,1200,200000000,"Sequoia, Coatue, Tiger Global, Franklin Templeton"
+Clari,Enterprise AI,Revenue Intelligence,Application,US,2012,"Sunnyvale, CA",Revenue operations platform,AI forecasting,clari.com,496000000,Series F,225000000,2022-01,2600000000,private,,700,100000000,"Bain Capital Ventures, Sequoia, Sapphire"
+Notion,Enterprise AI,Productivity,Application,US,2013,"San Francisco, CA",AI-enhanced workspace,Connected workspace AI,notion.so,343000000,Series C,250000000,2021-10,10000000000,private,,500,250000000,"Sequoia, Index Ventures, Coatue"
+Glean,Enterprise AI,Enterprise Search,Application,US,2019,"Palo Alto, CA",AI enterprise search,Work AI platform,glean.com,600000000,Series E,260000000,2025-02,4600000000,private,,500,100000000,"Sequoia, Kleiner Perkins, Lightspeed, ICONIQ"
+Moveworks,Enterprise AI,IT Automation,Application,US,2016,"Mountain View, CA",AI for IT support,Enterprise copilot,moveworks.com,305000000,Series C,200000000,2022-06,2100000000,private,,500,50000000,"Tiger Global, Sapphire Ventures, Bain Capital"
+Intercom,Enterprise AI,Customer Support,Application,Ireland,2011,"San Francisco, CA",AI customer messaging,Fin AI chatbot,intercom.com,239000000,Series D,125000000,2018-11,1275000000,private,,800,250000000,"Bessemer, Kleiner Perkins, GV"
+Ada,Enterprise AI,Customer Support,Application,Canada,2016,"Toronto, Canada",AI customer service automation,Automated resolution,ada.cx,191000000,Series C,130000000,2023-06,1200000000,private,,450,50000000,"Accel, Spark Capital, Tiger Global"
+Forethought,Enterprise AI,Customer Support,Application,US,2017,"San Francisco, CA",AI for customer support,Ticket resolution,forethought.ai,92000000,Series C,65000000,2022-02,,private,,150,,"New Enterprise Associates, K9 Ventures"
+UiPath,Automation,RPA,Application,US,2005,"New York, NY",Robotic process automation,AI-enhanced RPA,uipath.com,,,,,,public,PATH,4200,1308000000,"Public company"
+Automation Anywhere,Automation,RPA,Application,US,2003,"San Jose, CA",Enterprise automation,GenAI process automation,automationanywhere.com,840000000,Series C,290000000,2021-11,6800000000,private,,2600,500000000,"SoftBank, Salesforce Ventures, Goldman Sachs"
+Zapier,Automation,Workflow,Application,US,2011,"San Francisco, CA",Workflow automation platform,AI actions and integrations,zapier.com,1300000,Seed,1300000,2012-06,5000000000,private,,800,300000000,"Sequoia, Steadfast Financial (mostly bootstrapped)"
+Make,Automation,Workflow,Application,Czech Republic,2012,"Prague, Czech Republic",Visual automation platform,Complex workflow builder,make.com,82000000,Series C,42000000,2022-05,400000000,private,,800,100000000,"Eurazeo, Vista Credit Partners"
+Covariant,Robotics,Warehouse,Application,US,2017,"Emeryville, CA",AI for robotic picking,Team acqui-hired by Amazon,covariant.ai,222000000,Series C,75000000,2023-01,,acquired,,100,,"Index Ventures, Radical Ventures (Acqui-hired by Amazon)"
+Figure AI,Robotics,Humanoid,Application,US,2022,"Sunnyvale, CA",Humanoid robot company,General purpose humanoid,figure.ai,1370000000,Series B,675000000,2024-02,2600000000,private,,400,,"Microsoft, NVIDIA, OpenAI, Bezos Expeditions, Intel"
+1X Technologies,Robotics,Humanoid,Application,Norway,2014,"Moss, Norway",Humanoid robots for work,NEO humanoid robot,1x.tech,125000000,Series B,100000000,2024-01,,private,,150,,"OpenAI, Samsung NEXT, Tiger Global"
+Agility Robotics,Robotics,Humanoid,Application,US,2015,"Corvallis, OR",Bipedal robots,Digit warehouse robot,agilityrobotics.com,178000000,Series B,150000000,2024-03,,private,,200,,"DCVC, Playground Global, Amazon Industrial Innovation Fund"
+Skild AI,Robotics,Foundation Model,Application,US,2023,"Pittsburgh, PA",Robot foundation model,General robot intelligence,skild.ai,300000000,Seed,300000000,2024-07,1500000000,private,,50,,"SoftBank, Coatue, Lightspeed, Jeff Bezos"
+Physical Intelligence,Robotics,Foundation Model,Application,US,2024,"San Francisco, CA",Robot foundation model,Pi zero model,physicalintelligence.company,400000000,Series A,400000000,2024-11,2400000000,private,,50,,"Bezos Expeditions, Thrive Capital, Lux Capital, OpenAI"
+Waymo,Robotics,Autonomous Vehicles,Application,US,2009,"Mountain View, CA",Self-driving technology,Alphabet subsidiary,waymo.com,5500000000,External,5500000000,2024-10,,subsidiary,,2500,,"Alphabet, a16z, Tiger Global, Fidelity"
+Cruise,Robotics,Autonomous Vehicles,Application,US,2013,"San Francisco, CA",Autonomous vehicle company,Operations paused and restructured,getcruise.com,10000000000,,,,,subsidiary,,1000,,"GM, SoftBank, Honda, Microsoft"
+Nuro,Robotics,Autonomous Vehicles,Application,US,2016,"Mountain View, CA",Autonomous delivery vehicles,Last-mile delivery,nuro.ai,2130000000,Series D,600000000,2023-12,8600000000,private,,1100,,"SoftBank, Tiger Global, Google, Woven Capital"
+Aurora,Robotics,Autonomous Vehicles,Application,US,2017,"Pittsburgh, PA",Self-driving technology,Trucking focus,aurora.tech,,,,,,public,AUR,1800,36000000,"Public company"
+Tesla AI,Robotics,Autonomous Vehicles,Application,US,2016,"Austin, TX",AI and robotics at Tesla,FSD and Optimus,tesla.com,,,,,,subsidiary,,,,Tesla
+Perplexity,AI Applications,Search,Application,US,2022,"San Francisco, CA",AI-powered search engine,Answer engine,perplexity.ai,500000000,Series B,250000000,2024-12,9000000000,private,,150,100000000,"Jeff Bezos, NVIDIA, Databricks, IVP"
+Character.ai,AI Applications,Consumer,Application,US,2021,"Palo Alto, CA",AI character chatbots,Consumer engagement leader — talent deal with Google,character.ai,193000000,Series A,150000000,2023-03,1000000000,private,,30,,"a16z, Google (non-exclusive license deal)"
+Poe,AI Applications,Consumer,Application,US,2022,"San Francisco, CA",Multi-model AI platform,Quora product,poe.com,,,,,,subsidiary,,,,Quora
+Tome,AI Applications,Productivity,Application,US,2020,"San Francisco, CA",AI presentation tool,Storytelling AI,tome.app,81000000,Series B,43000000,2023-02,600000000,private,,90,,"Greylock, Lightspeed, Coatue"
+Beautiful.ai,AI Applications,Productivity,Application,US,2017,"San Francisco, CA",AI presentation software,Design automation,beautiful.ai,42000000,Series B,30000000,2022-03,,private,,80,,"Shasta Ventures, First Round Capital"
+Otter.ai,AI Applications,Productivity,Application,US,2016,"Mountain View, CA",AI meeting transcription,Meeting notes AI,otter.ai,63000000,Series C,50000000,2021-02,,private,,200,,"Spectrum Equity, Horizons Ventures"
+Fireflies.ai,AI Applications,Productivity,Application,US,2016,"San Francisco, CA",AI meeting assistant,Transcription and analysis,fireflies.ai,19000000,Series A,14000000,2021-11,,private,,45,,"Canaan Partners, Khosla Ventures"
+Synthesia,AI Applications,Video,Application,UK,2017,"London, UK",AI video generation,Avatar-based video,synthesia.io,157000000,Series D,90000000,2024-06,2100000000,private,,350,60000000,"Accel, NVIDIA, Kleiner Perkins"
+HeyGen,AI Applications,Video,Application,US,2020,"Los Angeles, CA",AI video creation platform,Avatar and translation,heygen.com,60000000,Series A,60000000,2024-09,,private,,150,35000000,"Benchmark, Sarah Guo (Conviction)"
+Descript,AI Applications,Video,Application,US,2017,"San Francisco, CA",AI video and audio editing,Podcast editing,descript.com,100000000,Series C,50000000,2022-01,553000000,private,,170,,"a16z, Redpoint, Spark Capital"
+Luma AI,AI Applications,3D,Application,US,2021,"San Francisco, CA",AI 3D capture and generation,NeRF technology,lumalabs.ai,70000000,Series B,43000000,2024-03,500000000,private,,50,,"a16z, Matrix Partners, GV"
+Typeface,AI Applications,Content,Application,US,2022,"San Francisco, CA",Enterprise content generation,Brand-safe AI content,typeface.ai,165000000,Series C,100000000,2024-06,1000000000,private,,170,,"Lightspeed, GV, Menlo, Salesforce, M12"
+Abnormal Security,Cybersecurity AI,Email Security,Application,US,2018,"San Francisco, CA",AI email security,Behavioral AI detection,abnormalsecurity.com,284000000,Series D,250000000,2024-04,5100000000,private,,600,200000000,"Wellington, CrowdStrike, Insight Partners, Greylock"
+CrowdStrike,Cybersecurity AI,Endpoint,Application,US,2011,"Austin, TX",AI-powered endpoint security,Charlotte AI,crowdstrike.com,,,,,,public,CRWD,8500,3805000000,"Public company"
+SentinelOne,Cybersecurity AI,Endpoint,Application,US,2013,"Mountain View, CA",Autonomous endpoint security,Purple AI,sentinelone.com,,,,,,public,S,2300,621000000,"Public company"
+Darktrace,Cybersecurity AI,Network,Application,UK,2013,"Cambridge, UK",AI cyber defense,Acquired by Thoma Bravo,darktrace.com,,,,2024-09,5300000000,acquired,,2200,620000000,"Thoma Bravo (take-private), KKR, Summit Partners"
+Vectra AI,Cybersecurity AI,Network,Application,US,2012,"San Jose, CA",AI threat detection,Network detection and response,vectra.ai,350000000,Series F,100000000,2022-06,1200000000,private,,600,,"Blackstone, Accel, Khosla, TCV"
+DataRobot,Data & MLOps,AutoML,Platform,US,2012,"Boston, MA",Automated machine learning,Enterprise AutoML,datarobot.com,1023000000,Series G,300000000,2021-07,6300000000,private,,1000,180000000,"Altimeter, Tiger Global, Sapphire, Franklin Templeton"
+Dataiku,Data & MLOps,Data Science,Platform,France,2013,"New York, NY",Everyday AI platform,Collaborative data science,dataiku.com,837000000,Series F,200000000,2023-12,3700000000,private,,1200,200000000,"CapitalG, Tiger Global, ICONIQ, Alven Capital"
+Tecton,Data & MLOps,Feature Store,Platform,US,2019,"San Francisco, CA",Real-time feature platform,ML feature engineering,tecton.ai,162000000,Series C,100000000,2022-06,,private,,160,,"a16z, Sequoia, Kleiner Perkins"
+Modal,Data & MLOps,Compute,Platform,US,2021,"New York, NY",Serverless cloud for AI,Python-native compute,modal.com,64000000,Series B,50000000,2024-07,400000000,private,,40,,"Redpoint Ventures, a16z"
+Baseten,Data & MLOps,Model Serving,Platform,US,2019,"San Francisco, CA",ML model deployment,Inference infrastructure,baseten.co,60000000,Series B,40000000,2023-11,,private,,60,,"Greylock, Spark Capital, IVP"
+Replicate,Data & MLOps,Model Serving,Platform,US,2019,"San Francisco, CA",ML model hosting,API-based model access,replicate.com,58000000,Series B,40000000,2024-04,,private,,50,,"a16z, Y Combinator, Sequoia"
+Comet,Data & MLOps,ML Platform,Platform,US,2017,"New York, NY",ML experiment management,Model monitoring,comet.com,63000000,Series B,50000000,2022-10,,private,,120,,"Insight Partners, Scale Venture Partners"
+Neptune.ai,Data & MLOps,ML Platform,Platform,Poland,2017,"Warsaw, Poland",ML metadata store,Experiment tracking,neptune.ai,8000000,Series A,8000000,2021-04,,private,,60,,"Almaz Capital, DN Capital"
+Unstructured,Data & MLOps,Data Processing,Platform,US,2022,"Sacramento, CA",Unstructured data ETL,Document processing,unstructured.io,65000000,Series B,40000000,2024-09,,private,,50,,"Menlo Ventures, Dark Horse Ventures"
+Cleanlab,Data & MLOps,Data Quality,Platform,US,2021,"San Francisco, CA",Data-centric AI platform,Auto data cleaning,cleanlab.ai,30000000,Series A,25000000,2023-11,,private,,35,,"Menlo Ventures, Bain Capital Ventures"
+Sama,Data & MLOps,Data Labeling,Platform,US,2008,"San Francisco, CA",AI training data and annotation,Impact-sourced data labeling,sama.com,85000000,Series A,85000000,2024-04,,private,,3800,,"Acumen, Google.org, Salesforce Ventures"
+Appen,Data & MLOps,Data Labeling,Platform,Australia,1996,"Sydney, Australia",AI training data services,Global annotation workforce,appen.com,,,,,,public,APX,1000,300000000,"Public company (ASX)"
+Determined AI,Data & MLOps,ML Platform,Platform,US,2017,"San Francisco, CA",Distributed ML training platform,Acquired by HPE,determined.ai,,,,2021-06,,acquired,,50,,"GV, Amplify Partners (Acquired by HPE)"
+Anyscale,Data & MLOps,Compute,Platform,US,2019,"San Francisco, CA",Ray distributed computing,OSS compute framework,anyscale.com,259000000,Series C,99000000,2023-09,1000000000,private,,200,,"a16z, NEA, Intel Capital, Addition"
+Mosaic ML,Data & MLOps,ML Platform,Platform,US,2021,"San Francisco, CA",LLM training platform,Acquired by Databricks,mosaicml.com,131000000,Series C,36300000,2023-06,1300000000,acquired,,100,,"Lux Capital, Maveron (Acquired by Databricks)"
+Hex,Data & MLOps,Data Science,Platform,US,2019,"San Francisco, CA",Collaborative data workspace,Notebooks meet BI,hex.tech,97000000,Series B,52000000,2022-09,,private,,130,,"a16z, Redpoint, Amplify"
+Posthog,Data & MLOps,Analytics,Platform,US,2020,"San Francisco, CA",Open source product analytics,Self-hosted analytics,posthog.com,27000000,Series B,15000000,2021-06,,private,,50,,"Y Combinator, GV, 1984 Ventures"
+Wiz,Cybersecurity AI,Cloud Security,Application,Israel,2020,"New York, NY",Cloud security platform,Acquired by Google for $32B,wiz.io,1900000000,Series E,1000000000,2024-05,12000000000,acquired,,1200,500000000,"Sequoia, Insight, Index Ventures, Greenoaks (Acquired by Google)"
+Palo Alto Networks,Cybersecurity AI,Network,Application,US,2005,"Santa Clara, CA",Enterprise cybersecurity,AI-powered security operations,paloaltonetworks.com,,,,,,public,PANW,15500,8154000000,"Public company"
+Zscaler,Cybersecurity AI,Cloud Security,Application,US,2007,"San Jose, CA",Cloud security platform,Zero trust AI,zscaler.com,,,,,,public,ZS,7700,2168000000,"Public company"
+Fortinet,Cybersecurity AI,Network,Application,US,2000,"Sunnyvale, CA",Network security with AI,FortiAI,fortinet.com,,,,,,public,FTNT,13800,5760000000,"Public company"
+Lacework,Cybersecurity AI,Cloud Security,Application,US,2015,"San Jose, CA",AI cloud security,Data-driven security,lacework.com,1080000000,Series D,200000000,2022-11,8300000000,private,,800,80000000,"Sutter Hill, Snowflake Ventures, Altimeter"
+Orca Security,Cybersecurity AI,Cloud Security,Application,Israel,2019,"Portland, OR",Agentless cloud security,SideScanning technology,orca.security,732000000,Series C,210000000,2023-11,1800000000,private,,500,100000000,"Iconiq, GGV, Tiger Global, Redpoint"
+Torq,Cybersecurity AI,Security Automation,Application,Israel,2020,"New York, NY",AI security automation,Hyperautomation for SOCs,torq.io,112000000,Series C,70000000,2024-08,,private,,200,,"Evolution Equity, Insight Partners, GGV"
+Augtera Networks,Cybersecurity AI,Network,Application,US,2019,"San Jose, CA",AI for network operations,AIOps for infrastructure,augtera.com,7000000,Seed,7000000,2022-01,,private,,30,,"DCVC, Engineering Capital"
+Bolster,Cybersecurity AI,Fraud Detection,Application,US,2017,"Los Altos, CA",AI phishing and fraud detection,Digital risk protection,bolster.ai,22000000,Series B,14000000,2024-06,,private,,50,,"Cheyenne Ventures, Cervin Ventures, M12"
+Snorkel AI,Data & MLOps,Data Labeling,Platform,US,2019,"Redwood City, CA",Programmatic data labeling,Data-centric AI,snorkel.ai,135000000,Series C,85000000,2022-08,1000000000,private,,200,,"Lightspeed, GV, Greylock, In-Q-Tel"
+Coactive AI,Data & MLOps,Data Processing,Platform,US,2021,"San Jose, CA",Multimodal data understanding,Unstructured data platform,coactive.ai,45000000,Series B,30000000,2024-08,,private,,35,,"Bessemer, Emerson Collective, a16z"
+Adept AI,Frontier Models,AI Agents,Foundation,US,2022,"San Francisco, CA",AI agent company,Action-oriented AI — talent deal with Amazon,adept.ai,415000000,Series B,350000000,2023-03,1000000000,private,,30,,"General Catalyst, Spark Capital (talent deal with Amazon)"
+SSI (Safe Superintelligence),Frontier Models,Large Language Models,Foundation,US,2024,"Palo Alto, CA",Superintelligence research,Ilya Sutskever startup,ssi.inc,1000000000,Series A,1000000000,2024-09,,private,,15,,"a16z, Sequoia, DST, Greenoaks"
+Sakana AI,Frontier Models,Research,Foundation,Japan,2023,"Tokyo, Japan",Nature-inspired AI research,Foundation model research in Japan,sakana.ai,300000000,Series B,214000000,2024-09,1500000000,private,,50,,"NVIDIA, Khosla, Lux Capital, New Enterprise Associates"
+Poolside,Frontier Models,Code Generation,Foundation,US,2023,"San Francisco, CA",AI code generation,Coding-focused LLM,poolside.ai,626000000,Series B,500000000,2024-10,3000000000,private,,50,,"Bain Capital, DST Global, Felicis, Salesforce"
+Magic,Developer Tools,Code Assistant,DevTools,US,2022,"San Francisco, CA",AI software engineer,Long context code models,magic.dev,320000000,Series C,320000000,2024-08,1500000000,private,,50,,"NFDG, CapitalG, Elad Gil, Nat Friedman"
+Devin (Cognition),Developer Tools,AI IDE,DevTools,US,2023,"San Francisco, CA",Autonomous AI software engineer,First AI software engineer,cognition.ai,200000000,Series B,175000000,2024-10,2000000000,private,,30,,"Founders Fund, Khosla, Spark Capital"
+Augment Code,Developer Tools,Code Assistant,DevTools,US,2022,"Palo Alto, CA",AI coding platform,Enterprise dev AI,augmentcode.com,227000000,Series B,150000000,2024-11,,private,,100,,"Index Ventures, Sutter Hill, Eric Schmidt"
+Weights,Developer Tools,ML Tools,DevTools,US,2023,"San Francisco, CA",AI model management,ML engineering tools,weights.com,20000000,Series A,20000000,2024-03,,private,,25,,"Index Ventures, Abstract Ventures"
+Aporia,Data & MLOps,ML Monitoring,Platform,Israel,2020,"Tel Aviv, Israel",ML observability and guardrails,LLM monitoring,aporia.com,35000000,Series B,25000000,2024-01,,private,,50,,"Insight Partners, Tiger Global"
+Neon,Infrastructure,Database,Cloud,US,2021,"San Francisco, CA",Serverless Postgres,Database for AI applications,neon.tech,104000000,Series B,46000000,2023-08,,private,,100,,"a16z, GGV, Founders Fund"
+Supabase,Infrastructure,Database,Cloud,US,2020,"San Francisco, CA",Open source Firebase alternative,Postgres platform,supabase.com,116000000,Series C,80000000,2024-04,500000000,private,,100,,"Y Combinator, Felicis, Coatue"

@@ -24,9 +24,9 @@ const columns = [
   { key: 'geography', label: 'Geo', width: 'w-[80px]' },
   { key: 'founded_year', label: 'Founded', width: 'w-[80px]' },
   { key: 'funding_total_usd', label: 'Funding', width: 'w-[100px]' },
+  { key: 'valuation_usd', label: 'Valuation', width: 'w-[100px]' },
   { key: 'company_type', label: 'Type', width: 'w-[80px]' },
-  { key: 'thesis_fit_score', label: 'Thesis', width: 'w-[70px]' },
-  { key: 'overcrowded_score', label: 'Crowd', width: 'w-[70px]' },
+  { key: 'employee_count', label: 'Employees', width: 'w-[80px]' },
 ];
 
 const layerColors: Record<string, string> = {
@@ -124,16 +124,16 @@ export function CompanyTable({ companies, total, page, pageSize }: Props) {
                 <td className="px-4 py-3 text-sm text-zinc-300 font-mono">
                   {formatCurrency(company.funding_total_usd)}
                 </td>
+                <td className="px-4 py-3 text-sm text-zinc-300 font-mono">
+                  {formatCurrency(company.valuation_usd)}
+                </td>
                 <td className="px-4 py-3">
-                  <Badge variant={company.company_type === 'public' ? 'success' : 'secondary'}>
+                  <Badge variant={company.company_type === 'public' ? 'success' : company.company_type === 'acquired' ? 'warning' : 'secondary'}>
                     {company.company_type}
                   </Badge>
                 </td>
-                <td className="px-4 py-3">
-                  <ScoreBar score={company.thesis_fit_score} color="green" />
-                </td>
-                <td className="px-4 py-3">
-                  <ScoreBar score={company.overcrowded_score} color="red" />
+                <td className="px-4 py-3 text-sm text-zinc-400">
+                  {company.employee_count ? company.employee_count.toLocaleString() : '—'}
                 </td>
               </tr>
             ))}

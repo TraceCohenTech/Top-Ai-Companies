@@ -123,13 +123,58 @@ export default async function CompanyDetailPage({ params }: Props) {
                   <p className="text-xs text-zinc-500 mb-1">Last Round</p>
                   <p className="text-lg font-semibold text-white">{company.last_round_name || '—'}</p>
                 </div>
+                {company.last_round_usd && (
+                  <div>
+                    <p className="text-xs text-zinc-500 mb-1">Last Round Size</p>
+                    <p className="text-lg font-semibold text-white">{formatCurrency(company.last_round_usd)}</p>
+                  </div>
+                )}
+                {company.valuation_usd && (
+                  <div>
+                    <p className="text-xs text-zinc-500 mb-1">Valuation</p>
+                    <p className="text-lg font-semibold text-white">{formatCurrency(company.valuation_usd)}</p>
+                  </div>
+                )}
+                {company.revenue_estimate && (
+                  <div>
+                    <p className="text-xs text-zinc-500 mb-1">Revenue Estimate</p>
+                    <p className="text-lg font-semibold text-white">{formatCurrency(company.revenue_estimate)}</p>
+                  </div>
+                )}
                 <div>
                   <p className="text-xs text-zinc-500 mb-1">Company Type</p>
                   <p className="text-lg font-semibold text-white capitalize">{company.company_type}</p>
                 </div>
+                {company.ticker && (
+                  <div>
+                    <p className="text-xs text-zinc-500 mb-1">Ticker</p>
+                    <p className="text-lg font-semibold text-white">{company.ticker}</p>
+                  </div>
+                )}
+                {company.last_round_date && (
+                  <div>
+                    <p className="text-xs text-zinc-500 mb-1">Last Round Date</p>
+                    <p className="text-lg font-semibold text-white">{company.last_round_date}</p>
+                  </div>
+                )}
               </div>
             </CardContent>
           </Card>
+
+          {company.investor_summary && (
+            <Card>
+              <CardHeader>
+                <CardTitle>Investors</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <div className="flex flex-wrap gap-2">
+                  {company.investor_summary.split(',').map((inv, i) => (
+                    <Badge key={i} variant="secondary">{inv.trim()}</Badge>
+                  ))}
+                </div>
+              </CardContent>
+            </Card>
+          )}
 
           {company.notes && (
             <Card>

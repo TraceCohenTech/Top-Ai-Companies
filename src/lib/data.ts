@@ -57,48 +57,10 @@ function enrichWithScores(companies: Company[]): Company[] {
   });
 }
 
-function generateMockEnrichment(name: string, category: string): Partial<Company> {
-  const fundingRanges: Record<string, [number, number]> = {
-    'Frontier Models': [100_000_000, 10_000_000_000],
-    'Infrastructure': [50_000_000, 5_000_000_000],
-    'Robotics': [20_000_000, 2_000_000_000],
-    'Data & MLOps': [10_000_000, 1_000_000_000],
-    'Developer Tools': [5_000_000, 500_000_000],
-    'Vertical AI': [10_000_000, 1_000_000_000],
-    'Enterprise AI': [20_000_000, 2_000_000_000],
-    'Agent Frameworks': [5_000_000, 200_000_000],
-    'Cybersecurity AI': [20_000_000, 1_000_000_000],
-    'AI Applications': [5_000_000, 500_000_000],
-    'Automation': [10_000_000, 500_000_000],
-  };
-
-  const range = fundingRanges[category] || [5_000_000, 100_000_000];
-  const hash = name.split('').reduce((acc, c) => acc + c.charCodeAt(0), 0);
-  const funding = Math.round(range[0] + (hash % 100) / 100 * (range[1] - range[0]));
-
-  const rounds = ['Pre-Seed', 'Seed', 'Series A', 'Series B', 'Series C', 'Series D', 'Series E', 'Series F'];
-  const roundIndex = Math.min(rounds.length - 1, Math.floor(Math.log10(funding / 1_000_000)));
-
-  const publicCompanies = ['NVIDIA', 'AMD', 'Intel', 'Salesforce Einstein', 'HubSpot', 'CrowdStrike', 'SentinelOne', 'Darktrace', 'UiPath', 'Palantir', 'Snowflake', 'Databricks', 'Tempus AI'];
-  const isPublic = publicCompanies.some(pc => name.includes(pc.split(' ')[0]));
-
-  const employeeRanges: Record<string, [number, number]> = {
-    'Foundation': [100, 5000],
-    'Hardware': [500, 30000],
-    'Cloud': [200, 50000],
-    'Platform': [50, 2000],
-    'Middleware': [10, 200],
-    'DevTools': [20, 1000],
-    'Application': [30, 5000],
-  };
-
-  return {
-    funding_total_usd: funding,
-    last_round_name: rounds[roundIndex],
-    company_type: isPublic ? 'public' : 'private',
-    employee_count: Math.round((employeeRanges['Application']?.[0] || 50) + (hash % 500)),
-    website: `https://${slugify(name)}.com`,
-  };
+function parseUSD(val: string | undefined): number | null {
+  if (!val || val.trim() === '') return null;
+  const num = parseInt(val.replace(/[^0-9]/g, ''));
+  return isNaN(num) ? null : num;
 }
 
 export function loadCompanies(): Company[] {
@@ -116,7 +78,7 @@ export function loadCompanies(): Company[] {
   const companies: Company[] = (data as Record<string, string>[]).map((row, i) => {
     const name = normalizeCompanyName(row['Company'] || '');
     const category = normalizeCategory(row['Category'] || 'Uncategorized');
-    const enrichment = generateMockEnrichment(name, category);
+    const companyType = (row['Company Type']?.trim()?.toLowerCase() || 'private') as 'private' | 'public' | 'acquired' | 'unknown';
 
     return {
       id: String(i + 1),
@@ -129,17 +91,17 @@ export function loadCompanies(): Company[] {
       description: row['Description']?.trim() || null,
       geography: normalizeGeo(row['Geo'] || 'Unknown'),
       notes: row['Notes']?.trim() || null,
-      website: enrichment.website || null,
-      funding_total_usd: enrichment.funding_total_usd || null,
-      last_round_name: enrichment.last_round_name || null,
-      last_round_usd: null,
-      last_round_date: null,
-      valuation_usd: null,
-      investor_summary: null,
-      company_type: enrichment.company_type || 'unknown',
-      ticker: null,
-      employee_count: enrichment.employee_count || null,
-      revenue_estimate: null,
+      website: row['Website']?.trim() || null,
+      funding_total_usd: parseUSD(row['Funding Total USD']),
+      last_round_name: row['Last Round']?.trim() || null,
+      last_round_usd: parseUSD(row['Last Round USD']),
+      last_round_date: row['Last Round Date']?.trim() || null,
+      valuation_usd: parseUSD(row['Valuation USD']),
+      investor_summary: row['Investors']?.trim() || null,
+      company_type: companyType,
+      ticker: row['Ticker']?.trim() || null,
+      employee_count: row['Employee Count'] ? parseInt(row['Employee Count']) : null,
+      revenue_estimate: parseUSD(row['Revenue Estimate USD']),
       thesis_fit_score: null,
       overcrowded_score: null,
       strategic_importance_score: null,
