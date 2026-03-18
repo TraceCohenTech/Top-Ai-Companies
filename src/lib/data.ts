@@ -369,3 +369,75 @@ export function getUniqueValues(field: keyof Company): string[] {
   });
   return Array.from(values).sort();
 }
+
+export function getTopFundedCompanies(limit = 15): Company[] {
+  return loadCompanies()
+    .filter(c => c.funding_total_usd && c.funding_total_usd > 0)
+    .sort((a, b) => (b.funding_total_usd || 0) - (a.funding_total_usd || 0))
+    .slice(0, limit);
+}
+
+export function getTopValuedCompanies(limit = 15): Company[] {
+  return loadCompanies()
+    .filter(c => c.valuation_usd && c.valuation_usd > 0)
+    .sort((a, b) => (b.valuation_usd || 0) - (a.valuation_usd || 0))
+    .slice(0, limit);
+}
+
+export function getCompanyEras(): { era: string; range: string; count: number; companies: Company[] }[] {
+  const companies = loadCompanies();
+  const eras = [
+    { era: 'Pioneers', range: 'Pre-2010', min: 0, max: 2009 },
+    { era: 'Foundation Era', range: '2010–2015', min: 2010, max: 2015 },
+    { era: 'ML Infrastructure', range: '2016–2019', min: 2016, max: 2019 },
+    { era: 'Pre-GPT Wave', range: '2020–2021', min: 2020, max: 2021 },
+    { era: 'GenAI Explosion', range: '2022–2023', min: 2022, max: 2023 },
+    { era: 'Post-GPT4 Era', range: '2024+', min: 2024, max: 2099 },
+  ];
+  return eras.map(e => {
+    const matched = companies.filter(c => c.founded_year && c.founded_year >= e.min && c.founded_year <= e.max);
+    return { era: e.era, range: e.range, count: matched.length, companies: matched };
+  });
+}
+
+export function getCategoryFundingStats(): { category: string; totalFunding: number; avgFunding: number; count: number; topCompany: string }[] {
+  const companies = loadCompanies();
+  const cats: Record<string, { total: number; count: number; top: string; topVal: number }> = {};
+  companies.forEach(c => {
+    if (!cats[c.category]) cats[c.category] = { total: 0, count: 0, top: '', topVal: 0 };
+    cats[c.category].count++;
+    if (c.funding_total_usd) {
+      cats[c.category].total += c.funding_total_usd;
+      if (c.funding_total_usd > cats[c.category].topVal) {
+        cats[c.category].topVal = c.funding_total_usd;
+        cats[c.category].top = c.name;
+      }
+    }
+  });
+  return Object.entries(cats)
+    .map(([category, d]) => ({
+      category,
+      totalFunding: d.total,
+      avgFunding: d.count > 0 ? Math.round(d.total / d.count) : 0,
+      count: d.count,
+      topCompany: d.top,
+    }))
+    .sort((a, b) => b.totalFunding - a.totalFunding);
+}
+
+export function getSubcategoryCounts(): { category: string; subcategory: string; count: number }[] {
+  const companies = loadCompanies();
+  const counts: Record<string, number> = {};
+  companies.forEach(c => {
+    if (c.subcategory) {
+      const key = `${c.category}|||${c.subcategory}`;
+      counts[key] = (counts[key] || 0) + 1;
+    }
+  });
+  return Object.entries(counts)
+    .map(([key, count]) => {
+      const [category, subcategory] = key.split('|||');
+      return { category, subcategory, count };
+    })
+    .sort((a, b) => b.count - a.count);
+}

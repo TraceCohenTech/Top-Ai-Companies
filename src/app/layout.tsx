@@ -11,7 +11,7 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: "AI Landscape Intelligence",
-  description: "Interactive research dashboard for the AI ecosystem",
+  description: "Interactive research dashboard tracking 156+ AI companies across the stack",
 };
 
 export default function RootLayout({

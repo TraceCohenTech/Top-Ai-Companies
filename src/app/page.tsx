@@ -1,43 +1,52 @@
-import { getDashboardStats, getCategoryCounts, getLayerCounts, getGeoCounts, getYearTrends, getFundingByCategory, generateInsights } from '@/lib/data';
-import { KPICards } from '@/components/dashboard/kpi-cards';
-import { InsightsPanel } from '@/components/dashboard/insights-panel';
-import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/card';
-import { DashboardCharts } from '@/components/dashboard/dashboard-charts';
+import {
+  loadCompanies, getDashboardStats, getCategoryCounts, getLayerCounts,
+  getGeoCounts, getYearTrends, getFundingByCategory, getCategoryLayerMatrix,
+  generateInsights, getTopFundedCompanies, getTopValuedCompanies,
+  getCompanyEras, getCategoryFundingStats, getSubcategoryCounts,
+} from '@/lib/data';
+import { THESIS_PRESETS } from '@/lib/scoring';
+import { FullDashboard } from '@/components/dashboard/full-dashboard';
 
-export default function DashboardPage() {
+export default function Page() {
+  const companies = loadCompanies();
   const stats = getDashboardStats();
   const categoryCounts = getCategoryCounts();
   const layerCounts = getLayerCounts();
   const geoCounts = getGeoCounts();
   const yearTrends = getYearTrends();
   const fundingByCategory = getFundingByCategory();
+  const matrix = getCategoryLayerMatrix();
   const insights = generateInsights();
+  const topFunded = getTopFundedCompanies(15);
+  const topValued = getTopValuedCompanies(15);
+  const eras = getCompanyEras();
+  const categoryFundingStats = getCategoryFundingStats();
+  const subcategoryCounts = getSubcategoryCounts();
 
   return (
-    <div className="max-w-[1600px] mx-auto px-6 py-8 space-y-8">
-      <div>
-        <h1 className="text-3xl font-bold tracking-tight text-white">AI Landscape Intelligence</h1>
-        <p className="text-zinc-400 mt-1">Explore the AI ecosystem across categories, layers, and geographies</p>
+    <div className="max-w-[1600px] mx-auto px-6 py-8">
+      <div className="mb-10">
+        <h1 className="text-4xl font-bold tracking-tight text-white">AI Landscape Intelligence</h1>
+        <p className="text-zinc-400 mt-2 text-lg">156 companies across the AI stack — funding, valuations, categories, and strategic positioning</p>
       </div>
 
-      <KPICards stats={stats} />
-
-      <DashboardCharts
+      <FullDashboard
+        companies={companies}
+        stats={stats}
         categoryCounts={categoryCounts}
         layerCounts={layerCounts}
         geoCounts={geoCounts}
         yearTrends={yearTrends}
         fundingByCategory={fundingByCategory}
+        matrix={matrix}
+        insights={insights}
+        topFunded={topFunded}
+        topValued={topValued}
+        eras={eras}
+        categoryFundingStats={categoryFundingStats}
+        subcategoryCounts={subcategoryCounts}
+        thesisPresets={THESIS_PRESETS}
       />
-
-      <Card>
-        <CardHeader>
-          <CardTitle>Derived Insights</CardTitle>
-        </CardHeader>
-        <CardContent>
-          <InsightsPanel insights={insights} />
-        </CardContent>
-      </Card>
     </div>
   );
 }
