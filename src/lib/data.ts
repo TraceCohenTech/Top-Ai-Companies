@@ -425,19 +425,3 @@ export function getCategoryFundingStats(): { category: string; totalFunding: num
     .sort((a, b) => b.totalFunding - a.totalFunding);
 }
 
-export function getSubcategoryCounts(): { category: string; subcategory: string; count: number }[] {
-  const companies = loadCompanies();
-  const counts: Record<string, number> = {};
-  companies.forEach(c => {
-    if (c.subcategory) {
-      const key = `${c.category}|||${c.subcategory}`;
-      counts[key] = (counts[key] || 0) + 1;
-    }
-  });
-  return Object.entries(counts)
-    .map(([key, count]) => {
-      const [category, subcategory] = key.split('|||');
-      return { category, subcategory, count };
-    })
-    .sort((a, b) => b.count - a.count);
-}

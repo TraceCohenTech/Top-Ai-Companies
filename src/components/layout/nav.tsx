@@ -14,7 +14,7 @@ export function Nav() {
           <span className="text-[10px] font-medium text-zinc-500 bg-zinc-800 px-1.5 py-0.5 rounded">INTEL</span>
         </div>
         <div className="text-xs text-zinc-500">
-          156 companies tracked
+          153 companies tracked
         </div>
       </div>
     </nav>
